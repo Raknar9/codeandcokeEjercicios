@@ -44,7 +44,9 @@ public class ejercicio9DevariablesYopredadores {
         segf=segFinal-((hf*3600)+(minf*60));// y los segundos para despues sacar el resultado final
 
         System.out.printf("La diferencia entre ambos momentos es de: "+hf+":"+minf+":"+segf);
-
+/*horas/60
+* minutos/60
+* seg%60*/
 
 
     }
@@ -59,8 +61,5 @@ public class ejercicio9DevariablesYopredadores {
         seg=min*60;
         return seg;
     }
-    public static int segAhora(int seg)
-    {
-        return 0;
-    }
+
 }
